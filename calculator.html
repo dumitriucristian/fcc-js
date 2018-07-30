@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+	<head>
+		<title>Magic calculator</title>
+	</head>	
+	<style>
+		#calculator
+		{
+			width:10em;
+		}
+		.nr, .operand{
+			width: 2em;
+    		height: 2em;
+		}
+		#buttons{
+			    margin: 7px 20px;
+		}
+	</style>
+	<body>	
+		<div id="calculator">
+			<input type="text" name="expression" id="expression" placeholder="0" disabled="disabled"></input>
+			<div id="buttons">
+
+				<button class="nr" value=1>1</button>
+				<button class="nr" value=2>2</button>
+				<button class="nr" value=3>3</button>
+				<button class="nr" value=4>4</button>
+				<button class="nr" value=5>5</button>
+				<button class="nr" value=6>6</button>
+				<button class="nr" value=7>7</button>
+				<button class="nr" value=8>8</button>
+				<button class="nr" value=9>9</button>
+				<button class="nr" value=0>0</button>
+				<button class="operand" value="/">/</button>
+				<button class="operand" value="*">*</button>
+				<button class="operand" value="-">-</button>
+				<button class="operand" value="+">+</button>
+				<button id="equal" class="operand" value="=">=</button>
+				<button id="clear" value="C">C</button>
+
+			</div>
+		
+		</div>
+		<script type="text/javascript" src="calculatorObject.js"></script>
+	</body>
+</html>
+
+ 
